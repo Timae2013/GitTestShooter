@@ -12,6 +12,7 @@ public class CollisionArrow : MonoBehaviour
 
     private void OnBecameInvisible()
     {
+        Debug.Log("Hi");
         Destroy(gameObject);
     }
 }
