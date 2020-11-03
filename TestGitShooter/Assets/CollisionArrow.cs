@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class CollisionArrow : MonoBehaviour
 {
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnBecameInvisible()
     {
         Destroy(gameObject);
