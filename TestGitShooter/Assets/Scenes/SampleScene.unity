@@ -220,6 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 418315831}
+  cam: {fileID: 519420031}
 --- !u!50 &418315831
 Rigidbody2D:
   serializedVersion: 4
